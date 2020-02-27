@@ -1,0 +1,19 @@
+{
+  "name": "digital-signature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sign": "nodemon --exec babel-node src/sign.js",
+    "verify": "nodemon --exec babel-node src/verify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glauber Magalhães",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.6",
+    "nodemon": "^2.0.2"
+  }
+}
