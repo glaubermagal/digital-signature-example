@@ -3,7 +3,7 @@
 ## Platform
 - NodeJs >= v10.15
 
-## Installation of dependenciese
+## Installation of dependencies
 
 ```
 npm install
@@ -15,7 +15,7 @@ npm install
 ```
 npm run sign
 ```
-### Verify the signature generated from above step(stored in signature.txt)
+### Verify the signature generated from the step above (stored in signature.txt)
 ```
 npm run verify
 ```
